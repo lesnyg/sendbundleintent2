@@ -18,12 +18,19 @@
             android:text="Button" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/editTextName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="@string/editText"
-            android:inputType="textPersonName" />
+            android:hint="@string/editTextName" />
+
+        <EditText
+            android:id="@+id/editTextAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+
+            android:hint="@string/editTextAge" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
