@@ -20,7 +20,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        String text = ((Button)v).getText().toString();
+        EditText editText = findViewById(R.id.editText);
+        String text = editText.getText().toString();
         Bundle bundle = new Bundle();
         bundle.putString("singleName",text);
         Intent intent = new Intent(this,secondActivity.class);

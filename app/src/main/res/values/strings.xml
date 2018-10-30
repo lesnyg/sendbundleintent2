@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">sendbundleintent2</string>
     <string name="textView3">Explicit Intent</string>
+    <string name="editText">내용을 입력하세요</string>
 </resources>
