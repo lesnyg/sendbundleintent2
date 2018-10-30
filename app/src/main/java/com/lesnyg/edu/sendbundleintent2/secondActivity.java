@@ -12,7 +12,7 @@ public class secondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         Bundle bundle = getIntent().getExtras();
-        TextView textView = (TextView)findViewById(R.id.singleName);
-        textView.setText(bundle.getString("singleName","No Data"));
+        TextView textViewName = (TextView)findViewById(R.id.singleName);
+        textViewName.setText(bundle.getString("name","No Data"));
     }
 }
